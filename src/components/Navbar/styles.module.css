@@ -1,0 +1,56 @@
+.navigation {
+  background-color: #ffffff;
+}
+
+.navbar {
+  padding: 0px 20px;
+  height: 60px;
+  max-width: 1400px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.logo {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #002033;
+  transition: 0.3s;
+}
+
+.logo:hover {
+  color: #0078d2;
+}
+
+.userControlls {
+  display: flex;
+  flex-direction: row;
+}
+
+.username {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #002033;
+  padding-right: 10px;
+  transition: 0.3s;
+}
+
+.username:hover {
+  color: #0078d2;
+}
+
+.exitIcon {
+  cursor: pointer;
+}

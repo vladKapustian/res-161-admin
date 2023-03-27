@@ -1,6 +1,39 @@
 .headers {
   display: flex;
   justify-content: space-between;
-  max-width: 900px;
   width: 100%;
+}
+
+.heading {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 29px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #002033;
+}
+
+.addCategoryButton {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  padding: 0px 16px;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  height: 44px;
+  text-decoration: none;
+  color: black;
+  transition: background-color 0.1s;
+  background-color: #0078d2;
+  color: #ffffff;
+  border: none;
+}
+
+.addCategoryButton:hover {
+  background-color: rgba(0, 119, 210, 0.8);
 }
